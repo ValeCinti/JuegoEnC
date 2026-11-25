@@ -24,6 +24,7 @@ FetchContent_MakeAvailable(raylib)
 add_executable(${PROJECT_NAME}
     src/main.c
     src/core/logs.c
+    src/core/clock.c
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
