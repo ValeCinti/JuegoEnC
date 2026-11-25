@@ -1,10 +1,12 @@
+#ifndef LOGS_H
+#define LOGS_H
 
-enum logs_types{
+typedef enum {
     LOG_INFO,
     LOG_WARNING,
     LOG_ERROR,
-};
+} logs_types;
 
-void log_register(enum logs_types type, char message){
-    printf("%d %s",type, message);
-}
+void log_register(logs_types type,const char* message);
+
+#endif

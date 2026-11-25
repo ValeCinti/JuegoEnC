@@ -2,8 +2,7 @@
 #include "core/logs.h"
 
 int main(){
-    enum logs_types log = LOG_INFO;
-    printf("%d",log);
-    log_register(log,"Hola");
+    logs_types logs = LOG_INFO;
+    log_register(logs,"hola");
     return 0;
 }
