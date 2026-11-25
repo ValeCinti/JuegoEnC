@@ -2,9 +2,9 @@
 #define LOGS_H
 
 typedef enum {
-    FC_LOG_INFO,
-    FC_LOG_WARNING,
-    FC_LOG_ERROR,
+    SY_LOG_INFO,
+    SY_LOG_WARNING,
+    SY_LOG_ERROR,
 } logLevel;
 
 void log_register(logLevel type,const char* message);
