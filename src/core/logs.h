@@ -2,11 +2,11 @@
 #define LOGS_H
 
 typedef enum {
-    LOG_INFO,
-    LOG_WARNING,
-    LOG_ERROR,
-} logs_types;
+    FC_LOG_INFO,
+    FC_LOG_WARNING,
+    FC_LOG_ERROR,
+} logLevel;
 
-void log_register(logs_types type,const char* message);
+void log_register(logLevel type,const char* message);
 
 #endif
