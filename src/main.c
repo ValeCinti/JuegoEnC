@@ -5,14 +5,13 @@
 #include <stdio.h>
 #include "raylib.h"
 
-#include "core/logs.h"
-
 int main(void) {
     const int screenWidth = 1920;
     const int screenHeight = 1080;
 
-    
+   
     SetConfigFlags(FLAG_WINDOW_RESIZABLE | FLAG_VSYNC_HINT);
+    SetTraceLogLevel(LOG_WARNING);
     InitWindow(screenWidth, screenHeight, "Forja Cero");
     SetTargetFPS(120);
 

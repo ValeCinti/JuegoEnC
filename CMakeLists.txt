@@ -23,6 +23,7 @@ FetchContent_MakeAvailable(raylib)
 # Ejecutable principal (después se van sumando los demás .c acá)
 add_executable(${PROJECT_NAME}
     src/main.c
+    src/core/logs.c
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
