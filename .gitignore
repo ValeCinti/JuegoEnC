@@ -1,0 +1,43 @@
+# Carpetas de compilación (incluye la descarga temporal de Raylib via FetchContent)
+build/
+cmake-build-*/
+out/
+
+# Archivos de CMake generados por accidente en la raíz
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Compilados y binarios de C
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.pdb
+*.ilk
+
+# Partidas guardadas y logs locales de prueba
+*.sav
+*.log
+
+# Editores e IDEs
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
