@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include "core/arena.h"
-#include "core/logs.h"
+#include "arena.h"
+#include "logs.h"
 
 #define ARENA_ALIGN 8
 
